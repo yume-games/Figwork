@@ -1,6 +1,6 @@
 namespace Imaginarium.Storage;
 
-public interface IGlobalStorage
+internal interface IGlobalStorage
 {
     void Setup(string path);
 }

@@ -1,7 +1,7 @@
 using System.Data.SQLite;
 namespace Imaginarium.Storage;
 
-public class SQLiteLocalStorage : ILocalStorage
+public class SQLiteStorage : IGlobalStorage, ILocalStorage
 {
     public void Setup(string path)
     {
