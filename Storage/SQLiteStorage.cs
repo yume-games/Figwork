@@ -1,6 +1,6 @@
 namespace ImaginariumFramework.Storage;
 
-internal class SQLiteStorage : GlobalStorage, IGlobalStorage
+internal class SQLiteStorage : IGlobalStorage, ILocalStorage
 {
 
 }

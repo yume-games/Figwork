@@ -2,9 +2,9 @@ using ImaginariumFramework.Runtime;
 
 namespace ImaginariumFramework.Storage;
 
-internal interface IGlobalStorage
+public interface IGlobalStorage
 {
-    void Setup();
+    void Setup(string storagePath);
 
     void Register(Game game);
 }
