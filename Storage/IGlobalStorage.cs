@@ -1,6 +1,10 @@
-namespace Imaginarium.Storage;
+using ImaginariumFramework.Runtime;
+
+namespace ImaginariumFramework.Storage;
 
 internal interface IGlobalStorage
 {
-    void Setup(string path);
+    void Setup();
+
+    void Register(Game game);
 }

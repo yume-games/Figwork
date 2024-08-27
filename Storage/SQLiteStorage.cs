@@ -1,10 +1,6 @@
-using System.Data.SQLite;
-namespace Imaginarium.Storage;
+namespace ImaginariumFramework.Storage;
 
-public class SQLiteStorage : IGlobalStorage, ILocalStorage
+internal class SQLiteStorage : GlobalStorage, IGlobalStorage
 {
-    public void Setup(string path)
-    {
-        
-    }
+
 }
