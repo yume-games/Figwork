@@ -2,8 +2,10 @@ using ImaginariumFramework.Storage;
 namespace ImaginariumFramework;
 
 /// <summary>
-/// Entry point for the Imaginarium framework
+/// <c>Imaginarium</c> is an utilty class that acts as an entry point for the framework.
 /// </summary>
+/// <typeparam name="G"></typeparam>
+/// <typeparam name="L"></typeparam>
 public class Imaginarium
 {
     private readonly IGlobalStorage _globalStorage;
