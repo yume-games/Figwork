@@ -1,4 +1,4 @@
-namespace ImaginariumFramework.Storage;
+namespace Figwork.Storage;
 
 public interface ILocalStorage
 {

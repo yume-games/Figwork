@@ -1,5 +1,5 @@
-using ImaginariumFramework.Storage;
-namespace ImaginariumFramework;
+using Figwork.Storage;
+namespace Figwork;
 
 /// <summary>
 /// <c>Imaginarium</c> is an utilty class that acts as an entry point for the framework.

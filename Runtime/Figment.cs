@@ -1,4 +1,4 @@
-namespace ImaginariumFramework.Runtime;
+namespace Figwork.Runtime;
 
 public class Figment
 {

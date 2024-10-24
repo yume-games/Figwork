@@ -1,6 +1,6 @@
-using ImaginariumFramework.Runtime;
+using Figwork.Runtime;
 
-namespace ImaginariumFramework.Storage;
+namespace Figwork.Storage;
 
 public interface IGlobalStorage
 {
